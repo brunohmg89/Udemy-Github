@@ -129,4 +129,7 @@ Aula 23: Enviando código para o repositório
 - Esta ação é feita pelo `git push` (Estamos trabalhando diretamente na main/master)
 - Após esta ação o código do servidor será utilizado baseando-se no código local enviado
 
-Aula 24: 
+Aula 24: Recebendo alterações
+- É comum também ter que sincronizar o local com as mudanças do remoto;
+- Esta ação é feito por `git pull`
+- Após o comando serão buscadas atualizações, se encontradas elas serão unidas ao código atual existente na nossa máquinas.
