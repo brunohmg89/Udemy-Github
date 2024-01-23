@@ -135,3 +135,15 @@ Aula 24: Recebendo alterações
 - Após o comando serão buscadas atualizações, se encontradas elas serão unidas ao código atual existente na nossa máquinas.
 
 Aula 25: Clonando repositórios
+- O ato de baixar um repositório de um servidor remoto é chamado de clonar repositório;
+- Para esta ação utilizamos `git clone LINKDOREPOSITORIO .` (para pegar o link, só ir no site do GitHub, ir na opção `Code` e copiar o link).
+- Passando a referência do repositório remoto;
+- Este comando é utilizado quando entramos em um novo projeto, por exemplo.
+
+Aula 26: Removendo arquivos
+- Os arquivos podem ser deletados da monitoração do Git;
+- O comando para deletar é `git rm`
+- Após deletar um arquivo do Git ele não terá mais suas atualizações consideradas pelo Git;
+- Apenas quando for adicionado novamente pelo `git add`
+
+Aula 27: 
