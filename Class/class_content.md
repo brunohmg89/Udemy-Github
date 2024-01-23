@@ -146,4 +146,15 @@ Aula 26: Removendo arquivos
 - Após deletar um arquivo do Git ele não terá mais suas atualizações consideradas pelo Git;
 - Apenas quando for adicionado novamente pelo `git add`
 
-Aula 27: 
+Aula 27: Verificando as alterações por meio de log
+- Podemos acessar um log de modificações feitas no projeto;
+- O comando para este recurso é `git log`
+- Você receberá uma informação dos commits realizados no projeto até então.
+
+Aula 28: Renomeando arquivos
+- Com o comando `git mv` podemos renomear um arquivo;
+- O mesmo também pode ser removido para outra pasta;
+- E isso fará com que este novo arquivo seja monitorado pelo Git;
+- O arquivo anterior é excluído.
+
+Aula 29: 
