@@ -55,4 +55,78 @@ Aula 13: Conclusão da primeira seção
 ## Git fundamental
 
 Aula 14: Introdução da seção
-- 
+- Iremos aprender comandos fundamentais do Git
+
+Aula 15: O que é um repositório
+- Onde o código será armazenado;
+- Na maioria das vezes cada projeto tem um repositório;
+- Quando criamos um repositório estamos iniciando um projeto;
+- O repositório pode ir para servidores que são especializados em gerenciar repos, como GitHub e BitBucket;
+- Cada um dos desenvolvedores do time pode baixar o repositório e criar versões diferentes em sua máquina.
+
+Aula 16: Criando um repositório
+- Para criar um repositório utilizamos o comando `git init`
+- Desta maneira o git vai criar os arquivos necessários para inicializa-lo;
+- Que estão na pasta oculta `.git`
+- Após este comando o diretório atual será reconhecido pelo git como um projeto e responderá aos seus demais comandos.
+- Comandos:
+    - `git status` para verificar se existe um repositório ativo
+    - `git init` para iniciar um projeto de um diretório.
+
+Aula 17: O que é GitHub
+- É um serviço para gerenciar repositórios, gratuito e amplamente utilizado;
+- Podemos enviar nossos projetos para o GitHub e disponibiliza-lo para outros devs;
+- O GitHub é gratuito tanto para projetos públicos como privados;
+- Criando uma conta no <https://github.com/>
+
+Aula 18: Mudança do nome principal de branch
+- Alteração de alguns anos atrás da branch principal de `master` para `main`
+
+Aula 19: Enviando repositórios para o GitHub
+- Podemos facilmente enviar nossos repos para o GitHub;
+- Precisamos criar o projeto no GitHub (entrando no site do GitHub e clicar em `New` e depois das primeiras configurações clicar em `create repository`), inicializar o mesmo no Git em nossa máquina, sincronizar com o GitHub e enviar;
+- Comandos e instruções:
+    - Criar um diretório em sua máquina local;
+    - Criar um arquivo qualquer dentro do diretório;
+    - Inicializar o repositório `git init`
+    - Verificar modificações `git status`
+    - Adicionar arquivos novos ou alterados `git add NOMEDOARQUIVO` ou `git add .` para adicionar todos os novos arquivos.
+    - Realizar o commit dos novos arquivos `git commit -m "MENSAGEM"`, a flag `-m` é de "mensagem" que será apresentado ao enviar as alterações para o repositório, veja mais sobre "conventional commits" nesse link <https://www.conventionalcommits.org/en/v1.0.0/>
+    - Criando uma branch principal para o repositório `git branch -M main`
+    - Sincronizando origem do repositório com o que foi criado `git remote add origin https://github.com/USUARIOGH/NOMEREPO.git`
+    - Enviando as modificações para o repo criado `git push -u origin main` 
+- E esta sequência que parece ser complexa é facilmente executada por poucos comandos;
+- Vale lembrar que só fazemos uma vez por projeto este fluxo;
+- Porém alguns dos comandos utilizados vão ser úteis ao longo do curso;
+
+Aula 20: Verificando alterações
+- As mudanças do projeto podem ser verificadas por `git status`
+    - Existem arquivos modificados que aparecem como `Modified` e novos arquivo que aparecem como `Untracked`
+- Este comando é utilizado frequentemente;
+- Aqui serão mapeadas todas as alterações do projeto;
+- Como: arquivos não monitorados e arquivos modificados;
+- Podemos também dizer que é a diferença do que já está enviado ao servidor ou salvo no projeto
+
+Aula 21: Adicionando arquivos ao projeto
+- Para adicionar arquivos a um projeto utilizamos `git add`
+- Podemos adicionar um arquivo especifico como também diversos de uma só vez;
+    - `git add NOMEDOARQUIVO` adicionando um arquivo especifico
+    - `git add .` adicionando todos os arquivos modificos de uma vez.
+- Somente adicionando arquivos eles serão "monitorados" pelo git;
+- Ou seja, se não adicionar ele não estará no controle de versão;
+- É interessante utilizar este comando de tempos em tempos para não perder algo por descuido.
+
+Aula 22: Salvando alterações
+- As alterações salvas do projeto são realizadas por `git commit`
+- Podemos commitar arquivos especificos ou vários de uma vez com a flag `-a`
+    - `git commit NOMEDOARQUIVO -m "MENSAGEM"` "commita" um único arquivo.
+    - `git commit -a -m "MENSAGEM"` para "commitar" todos os arquivos, sem a flag `-a` também funciona commitar todos os arquivos.
+- É uma boa prática enviar uma mensagem a cada commit, com as alterações que foram realizadas;
+- A mensagem pode ser adicionada com a flag `-m`
+
+Aula 23: Enviando código para o repositório
+- Quando finalizamos uma funcionalidade nova, enviamos o código ao repo remoto, que é o código-fonte;
+- Esta ação é feita pelo `git push` (Estamos trabalhando diretamente na main/master)
+- Após esta ação o código do servidor será utilizado baseando-se no código local enviado
+
+Aula 24: 
