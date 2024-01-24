@@ -169,4 +169,49 @@ Aula 30: Ignorando arquivos e diretórios em um projeto
 - Nele podemos inserir todos os arquivos que não devem entrar no versionamento;
 - Isso é útil para arquivos gerados automaticamente ou arquivos que contêm informações sensiveis
 
-Aula 31: 
+Aula 31: Resetando um branch
+- Com o comando `git reset` podemos resetar as mudanças feitas
+- Geralmente é utilizado com a flag `--hard`
+- Comando: `git reset --hard origin/NOMEDABRANCH` faz com que reset a branch atual deixando no mesmo estado que está na branch que você aponte.
+- Todas as alterações "commitadas" e também as pendentes serão excluídas
+
+Aula 32: Conclusão da seção
+- Concluindo seção com comandos fundamentais do Git.
+
+Teste 1: Quiz sobre os comandos fundamentais
+- Contém 4 perguntas, 100% de acerto
+
+## Trabalhando com Branches
+
+Aula 33: Introdução sobre a seção
+- Introdução breve do que aprenderemos na seção "trabalhando com branches"
+
+Aula 34: O que são Branches
+- Branch é uma forma que o Git separa as versões dos projetos;
+- Quando um projeto é criado ele inicia na branch `main`, estamos trabalhando nela até este ponto do curso;
+- Geralmente cada nova feature de um projeto fica em uma branch separada;
+- Após a finalização das alterações os branches são unidos para ter o código-fonte final
+
+Aula 35: criando e visualizando branches
+- Para visualizar os branches disponíveis basta digitar `git branch`
+- Para cria um branch você precisa utilizar o comando `git branch NOMEPARABRANCH`
+- Estas duas operações são muito utilizadas no dia a dia de um dev
+
+Aula 36: Deletando branches
+- Podemos deletar um branch com a flg `-d` ou `--delete`
+- Comando: `git branch -d NOMEDABRANCH`
+- Não é comum deletar um branch, normalmente guardamos o histórico do trabalho;
+- Geralmente se usa o delete quando o branch foi criado errado
+
+Aula 37: Mudando de branch
+- Podemos mudar para outro branch utilizando o comando `git checkout -b NOMEDABRANCH` (esse comando muda de branch já criando um novo)
+- Esta comando também é utilizado para dispensar mudanças de um arquivo
+- Alterando o branch podemos levar alterações que não foram commitadas junto, tome cuidado
+
+Aula 38: Unindo branches
+- O código de dois branches distintos pode ser unido pelo comando `git merge NOMEDABRANCH`
+- Outro comando para a lista dos mais utilizados
+- Normalmente é por meio dele que recebemos as atualizações de outros devs
+
+Aula 39: Utilizando a stach
+- 
