@@ -157,4 +157,16 @@ Aula 28: Renomeando arquivos
 - E isso fará com que este novo arquivo seja monitorado pelo Git;
 - O arquivo anterior é excluído.
 
-Aula 29: 
+Aula 29: Desfazendo operações
+- O arquivo modificado pode ser retornado ao seu estado original;
+- O comando utilizado é o `git checkout NOMEDOARQUIVO` (volta o estado original do arquivo)
+- Após a utilização do mesmo o arquivo sai do staging;
+- Caso seja feita uma próxima alteração ele entra em staging novamente
+
+Aula 30: Ignorando arquivos e diretórios em um projeto
+- Uma técnica muito utilizada é ignorar arquivos do projeto;
+- Devemos inserir um arquivo chamado `.gitignore` na raiz do projeto;
+- Nele podemos inserir todos os arquivos que não devem entrar no versionamento;
+- Isso é útil para arquivos gerados automaticamente ou arquivos que contêm informações sensiveis
+
+Aula 31: 
