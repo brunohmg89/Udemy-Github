@@ -234,3 +234,6 @@ Aula 42: Criando Tags
 - É utilizada para demonstrar estágios do desenvolvimento de algum recurso
 
 Aula 43: Alterando a tag
+- Podemos verificar uma tag com o comando `git show NOMEDATAG`
+- Podemos trocar de tags com o comando `git checkout NOMEDATAG`
+- Desta maneira podemos retroceder ou avançar em checkpoints de um branch
