@@ -225,3 +225,8 @@ Aula 40: Recuperando stach
 - Desta maneira podemos continuar de onde paramos com os arquivos adicionados a stash
 
 Aula 41: Removendo a stash
+- Para limpar totalmente as stashs de um branch podemos utilizar o comando `git stash clear`
+- Caso seja necessário deletar uma stash especifica podemos utilizar `git stash drop NUMERODASTASH`
+
+Aula 42: Criando Tags
+- 
