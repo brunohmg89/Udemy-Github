@@ -214,4 +214,13 @@ Aula 38: Unindo branches
 - Normalmente é por meio dele que recebemos as atualizações de outros devs
 
 Aula 39: Utilizando a stach
-- 
+- Podemos salvar as modificações atuais para prosseguir com uma outra abordagem de solução e não perder o código
+- O comando para esta ação é o `git stash`
+- Após o comando o branch será resetado para a sua versão de acordo com o repo
+
+Aula 40: Recuperando stach
+- Podemos verificar as stashs criadas pelo comando `git stash list`
+- E também podemos recuperar a stash com o comando `git stash NOMEDASTASH`
+- Desta maneira podemos continuar de onde paramos com os arquivos adicionados a stash
+
+Aula 41: Removendo a stash
