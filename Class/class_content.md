@@ -237,3 +237,11 @@ Aula 43: Alterando a tag
 - Podemos verificar uma tag com o comando `git show NOMEDATAG`
 - Podemos trocar de tags com o comando `git checkout NOMEDATAG`
 - Desta maneira podemos retroceder ou avançar em checkpoints de um branch
+
+Aula 44: Enviando tags ao repositório
+- As tags podem ser enviadas para o repositório de código, senda compartilhada entre os devs
+- O comando é `git push origin NOMEDATAG`
+- Ou se você quiser enviar mais tags `git push origin --tags`
+
+Aula 45: Conclusão da seção
+- 
