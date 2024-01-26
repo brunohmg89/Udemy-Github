@@ -244,4 +244,26 @@ Aula 44: Enviando tags ao repositório
 - Ou se você quiser enviar mais tags `git push origin --tags`
 
 Aula 45: Conclusão da seção
-- 
+- Concluindo seção com comandos relacionados a branches.
+- Resumo dos comandos:
+    - `git branch` *para listar as branches existentes* 
+    - `git branch NOMEDABRANCH` *para criar uma branch*
+    - `git branch -d NOMEDABRANCH` ou `git branch --delete NOMEDABRANCH`*para deletar uma branch*
+    - `git checkout -b NOMEDABRANCH` *para criar uma nova branch saindo da anterior*
+    - `git merge NOMEDABRANCH` *para mergear as alterações realizadas em uma branch para outra*
+    - `git stash` *para criar um stash*
+    - `git stash list` *listar stashs*
+    - `git stash NOMEDASTASH` *recuperar uma stash*
+    - `git stash shown -p NUMERODASTASH` *listar as alterações da stash*
+    - `git stash clear` *limpar todas as stashs*
+    - `git stash drop NUMERODASTASH` *limpar stash especifica*
+    - `git tag -a NOMEDATAG -m "MENSAGEM"` *criando uma tag em uma branch*
+    - `git tag` *listar tags*
+    - `git show NOMEDATAG` *listar alterações contidas na tag*
+    - `git checkout NOMEDATAG` *entrar em uma tag*
+    - `git push origin NOMEDATAG` *enviar a tag para o repositório*
+    - `git push origin --tags` *enviar todas as tags criadas para o repositório*
+
+## Compartilhamento e atualização de repositórios
+
+Aula 46: Introdução da seção
