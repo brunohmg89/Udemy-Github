@@ -229,4 +229,9 @@ Aula 41: Removendo a stash
 - Caso seja necessário deletar uma stash especifica podemos utilizar `git stash drop NUMERODASTASH`
 
 Aula 42: Criando Tags
+- Podemos criar tags nos branches por meio do comando `git tag -a NOMEDATAG -m "MENSAGEM"`
+- A tag é diferente do stash, serve como um checkpoint de um branch
+- É utilizada para demonstrar estágios do desenvolvimento de algum recurso
+
+Aula 43: Alterando a tag
 - 
