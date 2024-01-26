@@ -177,6 +177,21 @@ Aula 31: Resetando um branch
 
 Aula 32: Conclusão da seção
 - Concluindo seção com comandos fundamentais do Git.
+- Resumo dos comandos:
+    - `git init` *para iniciar o diretório como um repositório*
+    - `git status` *para verificar os arquivos criados, não commitados e não trackeados*
+    - `git add NOMEDOARQUIVO` *para adicionar um arquivo especifico* ou `git add .` *para adicionar todos os arquivos*
+    - `git commit NOMEDOARQUIVO -m "MENSAGEM"` *para commitar um arquivo especifico*
+    - `git commit -a -m "MENSAGEM"` *para commitar todos os arquivos adicionados*
+    - `git push` *para enviar todos os arquivos commitados para o repositório*
+    - `git pull` *para pegar alterações realizadas de forma manual no repositório*
+    - `git clone LINKDOREPOSITORIO .` *para clonar um repositório existente*
+    - `git rm NOMEDOARQUIVO` *para remover arquivos adicionados*
+    - `git log` *para verificar todos os commits realizados e as alterações nela contidas*
+    - `git mv` *para mover arquivos de lugar ou renomear os arquivos*
+    - `git checkout NOMEDOARQUIVO` *para voltar o arquivo alterado para seu estado original antes da alteração*
+    - Arquivo `.gitignore` *utilizado para ignorar arquivos dentro do diretório e não envia-los para o repositório*
+    - `git reset --hard origin/NOMEDABRANCH` *utilizado para resetar a branch toda e todas as alterações que foram feitas até então*
 
 Teste 1: Quiz sobre os comandos fundamentais
 - Contém 4 perguntas, 100% de acerto
