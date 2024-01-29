@@ -392,4 +392,13 @@ Aula 64: Comprimindo o repositório
 Aula 65: Conclusão da seção
 - Concluindo seção de administração de repositórios
 - Resumo dos comandos:
-    -
+    - `git clean -f` *para limpar todos os arquivos que não foram trackeados, ou seja, novos arquivos*
+    - `git gc` *limpa arquivos desnecessários para o repositório e os limpa*
+    - `git fsck` *faz uma varredura se existe arquivos corrompidos, mantendo a saúde do repositório*
+    - `git reflog` *traça todo seu histório de alterações e movimentações no repositório*
+    - `git archive --format zip --output NOMEDOARQUIVO.zip main` *cria um arquivo "zipado" de todos o projetos e seus arquivos*
+
+## Melhorando os commits do projetos
+
+Aula 66: A importância dos commits
+- 
