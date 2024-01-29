@@ -304,4 +304,31 @@ Aula 50: Utilizando o remote
 - Quando criamos um repo remoto, adicionamos ele ao git com o comando `git remote add origin LINKDOREPO`
 
 Aula 51: Conhecendo os submodules
+- Submódulo é a maneira que temos de possuir dois ou mais projetos em um só repositório
+- Podemos adicionar uma dependência ao nosso projeto atual, porém mantendo suas estruturas separadas
+- Para adicionar o submódulo utilizamos o comando `git submodule add REPO`
+- Para verificar os submódulos o comando é `git submodule`
+
+Aula 52: Atualizando os Submódulos
+- Para atualizar um submódulo primeiro devemos commitar as mudanças
+- E para enviar para o repositório do submódulo utilizamos `git push --recurse-submodules=on-demand`
+- Este fluxo fará a atualização apenas do submódulo
+
+Aula 53: Conclusão da seção
+- Concluindo seção com compartilhamento e atualização de repositórios.
+- Resumo dos comandos:
+    - `git fetch` *para "baixar" as branchs e tags do repositório remoto*
+    - `git pull` *serve para baixar as atualizações da branch*
+    - `git push` *serve para enviar todas as alterações realizadas para a branch remota*
+    - `git remote` *atrela ou sincroniza um repositório a um diretório*
+    - `git remote -v` *mostra a origem do repositório*
+    - `git remote rm origin` *remove ou desacocla o diretório do repositório remoto*
+    - `git remote add origin LINKDOREPOSITORIO` *sincroniza um repositório novamente ao diretório local*
+    - `git submodule` *mostra os submodelos de um repositório*
+    - `git submodule add REPO` *adiciona um repositório dentro de outro*
+    - `git push --recurse-submodules=on-demand` *esse push faz com que a atualização seja realizado no repositório de origem*
+
+## Análise e inspeção de repositórios
+
+Aula 54: Introdução da seção
 - 
