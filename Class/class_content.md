@@ -331,4 +331,42 @@ Aula 53: Conclusão da seção
 ## Análise e inspeção de repositórios
 
 Aula 54: Introdução da seção
+- Introdução breve do que aprenderemos na seção "análise e inspeção de repositório"
+
+Aula 55: Exibindo detalhes de branches e tags
+- O comando `git show` nos dá diversas informações úteis
+- Ele nos dá as informações do branch atual e também seus commits
+- As modificações de arquivos entre cada commit também são exibidas
+- Podemos exibir as informações de tags também com o comando `git show TAG`
+
+Aula 56: Verificando diferenças
+- O comando `git diff` serve para exibir as diferenças de uma branch
+- Quando utilizado as diferenças do branch atual com o remoto serão exibidas no terminal
+- Podemos também verificar a diferença entre arquivos `git diff ARQUIVO1 ARQUIVO2`
+
+Aula 57: Log de atividades resumido
+- O comando `git shortlog` nos dá um log resumido do projeto
+- Cada commit será unido por nome do autor
+- Podemos então saber quais commits foram enviados ao projeto e por quem
+
+Aula 58: Conclusão da seção
+- Concluindo seção de análise e inspeção de repositórios
+- Resumo dos comandos:
+    - `git show` *mostra informações sobre todas as alterações realizados no repositório*
+    - `git show TAG` *mostra as informações sobre todas as alterações realizados em Tags no repositório*
+    - `git diff` *mostra todas as alterações nos arquivos que foram realizadas*
+    - `git diff HEAD:ARQUIVO1 ARQUIVO1` *mostra as diferenças entre o arquivo local e do repositório*
+    - `git shortlog` *nos dá um log resumidos de todos os commits que foram realizados no repositório*
+
+## Administração de repositórios
+
+Aula 59: Introdução da seção
+- Introdução breve do que aprenderemos na seção de "administração de repositórios"
+
+Aula 60: Limpando arquivos untracked
+- O comando `git clean` vai verificar e limpar arquivos que não estão sendo trackeados
+- Ou seja, todos os arquivos que você não utilizou o `git add`
+- Utilizado para arquivos que são gerados automaticamente, por exemplo, e atrapalham a visualização do que é realmente importante
+
+Aula 61: Otimizando repositórios
 - 
