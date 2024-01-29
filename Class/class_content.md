@@ -364,9 +364,32 @@ Aula 59: Introdução da seção
 - Introdução breve do que aprenderemos na seção de "administração de repositórios"
 
 Aula 60: Limpando arquivos untracked
-- O comando `git clean` vai verificar e limpar arquivos que não estão sendo trackeados
+- O comando `git clean -f` vai verificar e limpar arquivos que não estão sendo trackeados
 - Ou seja, todos os arquivos que você não utilizou o `git add`
 - Utilizado para arquivos que são gerados automaticamente, por exemplo, e atrapalham a visualização do que é realmente importante
 
 Aula 61: Otimizando repositórios
-- 
+- O comando `git gc` é uma abreviação para "garbage collector"
+- Ele indica arquivos que não são mais necessários e os exclui
+- Isso fará com o que o repositório seja otimizado em questões de performance
+
+Aula 62: Verificando integridade dos arquivos
+- O comando `git fsck` é uma abreviação de "File System ChecK"
+- Esta instrução verifica a integridade de arquivos e sua conectividade
+- Verificando assim possíveis corrupções em arquivos
+- Comando de rotina, utilizado para ver se está tudo certo com nossos arquivos
+
+Aula 63: Reflog
+- O `git reflog` vai mapear todos os seus passos no repositório, até uma mudança de branch é inserida neste log
+- Já o `git log`, que vimos anteriormente, apenas armazena os commits de uma branch
+- Os reflogs ficam salvos até expirar, o tempo de expiração padrão é de 30 dias
+
+Aula 64: Comprimindo o repositório
+- Com o comando `git archive` podemos transformar o repositório em um arquivo compactado, por exemplo
+- O comando é `git archive --format zip --output main_files.zip main`
+- E então a master vai estar zipada no arquivo "master_files.zip"
+
+Aula 65: Conclusão da seção
+- Concluindo seção de administração de repositórios
+- Resumo dos comandos:
+    -
