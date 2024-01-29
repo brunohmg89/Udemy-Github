@@ -282,3 +282,12 @@ Aula 45: Conclusão da seção
 ## Compartilhamento e atualização de repositórios
 
 Aula 46: Introdução da seção
+- Introdução breve do que aprenderemos na seção "Compartilhamento e atualização de repositórios"
+
+Aula 47: Encontrando branches
+- Branches novos são criados a todo tempo e o seu git pode não estar mapeando eles
+- Com o comando `git fetch` você é atualizado de todos os branches e tags que ainda não estão reconhecidos por você
+- Este comando é útil para utilizar o branch de algum outro dev do time, por exemplo
+
+- Aula 48: Recebendo atualizações
+- 
