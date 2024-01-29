@@ -180,8 +180,8 @@ Aula 32: Conclusão da seção
 - Resumo dos comandos:
     - `git init` *para iniciar o diretório como um repositório*
     - `git status` *para verificar os arquivos criados, não commitados e não trackeados*
-    - `git add NOMEDOARQUIVO` *para adicionar um arquivo especifico* ou `git add .` *para adicionar todos os arquivos*
-    - `git commit NOMEDOARQUIVO -m "MENSAGEM"` *para commitar um arquivo especifico*
+    - `git add NOMEDOARQUIVO` *para adicionar um arquivo especifico* ou `git add .` *para adicionar todos os arquivos untracked ou arquivos novos*
+    - `git commit NOMEDOARQUIVO -m "MENSAGEM"` *para commitar um arquivo especifico que já está sendo monitorado pelo git ou simplesmente arquivos que foram modificados*
     - `git commit -a -m "MENSAGEM"` *para commitar todos os arquivos adicionados*
     - `git push` *para enviar todos os arquivos commitados para o repositório*
     - `git pull` *para pegar alterações realizadas de forma manual no repositório*
@@ -289,5 +289,19 @@ Aula 47: Encontrando branches
 - Com o comando `git fetch` você é atualizado de todos os branches e tags que ainda não estão reconhecidos por você
 - Este comando é útil para utilizar o branch de algum outro dev do time, por exemplo
 
-- Aula 48: Recebendo atualizações
+Aula 48: Recebendo atualizações
+- O comando `git pull` serve para recebermos atualizações do repositório remoto
+- Cada branch pode ser atualizada com o git pull
+- Utilizamos para atualizar a main do repo como também quando trabalhamos em conjunto e queremos receber atualizações de uma dev
+
+Aula 49: Enviando alterações
+- O comando `git push` faz o inverso do pull, ele envia as alterações para o repo remoto
+- Serve também para enviar as atualizações de um branch especifico para um outro dev
+- Ou quando terminamos uma tarefa e precisamos enviar ao repo
+
+Aula 50: Utilizando o remote
+- Com o `git remote` podemos fazer algumas ações como, adicionar um repo para trackear ou remover
+- Quando criamos um repo remoto, adicionamos ele ao git com o comando `git remote add origin LINKDOREPO`
+
+Aula 51: Conhecendo os submodules
 - 
