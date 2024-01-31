@@ -415,4 +415,15 @@ Aula 67: Técnica de private branch
 - Escolhemos os branches para excluir (squash) e renomear com (reword)
 
 Aula 68: Melhorando as mensagens dos commits
+- Separar assunto do corpo da mensagem
+- Assunto com no máximo 50 caracteres
+- Assunto com letra inicial maiúscula
+- Corpo com no máximo 72 caracteres
+- Explicar o porque e como do commit, e não como o código foi escrito
+- Comandos:
+    - `git rebase BRANCHATUAL PRIVATEBRANCH -i` *realizado para "mergear" commits com nomenclaturas erradas ou fora do padrão e também para renomear commits ajudando em possíveis tshoots com o `git log`. O conceito de private branch é a criação de uma branch derivadas de outro branch que não seja a main/master*
+
+## Explorando e entendendo o GitHub
+
+Aula 69: Introdução da seção
 - 
