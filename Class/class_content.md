@@ -401,4 +401,18 @@ Aula 65: Conclusão da seção
 ## Melhorando os commits do projetos
 
 Aula 66: A importância dos commits
+- O problema: commits sem sentido atrapalham o projeto
+- Precisamos padronizar os commits, para que o projeto cresça de forma saudável também no versionamento, isso ajuda em:
+- Review do Pull Request
+- Melhoria dos logs em `git log`
+- Manutenção do projeto (voltar código, por exemplo)
+
+Aula 67: Técnica de private branch
+- Há uma solução chamada private branches
+- Onde criamos branches que não serão compartilhadas no repositório, então podemos colocar qualquer commit
+- Ao fim da solução do problema podemos fazer um rebase
+- O comando será `git rebase BRANCHATUAL BRANCHFUNCIONALIDADE -i`
+- Escolhemos os branches para excluir (squash) e renomear com (reword)
+
+Aula 68: Melhorando as mensagens dos commits
 - 
