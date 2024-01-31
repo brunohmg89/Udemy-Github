@@ -435,4 +435,54 @@ Aula 69: Introdução da seção
 - Introdução breve do que aprenderemos na seção "Explorando e entendendo o GitHub"
 
 Aula 70: Criando repositório
+- No GitHub inicializamos os repositórios, e temos algumas informações importantes para preencher, vamos vê-las em detalhes:
+- Algumas delas são: Nome do repositório, descrição, licença
+- Tudo poderá ser alterado ao longo do seu projeto, mas é interessante conhecer os detalhes das informações para configurar um projeto.
+
+Aula 71: Verificando código fonte e licenças
+- Na aba "Code" teremos acesso a informações importantes, como o próprio código-fonte
+- Podemos checar também uma documentação do projeto pelo `README.md`
+- E os detalhes da licença do projeto
+- Criar branches, adicionar arquivos e muito mais
+
+Aula 72: Criando e verificando issues
+- Na aba "Issue" podemos criar tarefas ou possíveis bugs do projeto
+- Interessante para a organização se manter ciente do que ainda precisa fazer ou corrigir
+- Normalmente há um padrão para a criação de novos issues
+- Podemos utilizar o Markdown no texto também (igual no README.md)
+- A issue deve ter uma label e também um responsável
+
+Aula 73: Atualizando projeto por Pull Request
+- Na aba "Pull Request" é onde os colaboradores do projeto enviam código para resolver as issues ou adicionar novas funcionalidades ao projeto
+- A ideia é que o código não seja inserido direto na main e sim passe por um Pull Request, para ser analisado
+- O Pull Request vem de um novo branch criado no projeto e enviado para o repositório, com o incremento do código
+
+Aula 74: Processos de CI/CD no GitHub
+- Na aba "Actions" é onde se cria as automatizações de deploy com integração em outros serviços
+- Incluindo CI/CD (Continuous Integration / Continuous Development)
+- Ou seja, podemos criar uma rotina de atualizar a main automaticamente e outros processos
+
+Aula 75: Criando projetos no GitHub
+- Na aba "Projects" podemos criar um projeto e utilizar um quadro de tarefas
+- Este processo é conhecido como "Kanban" e pode ajudar a organizar seu time, criando notas que podem virar Issues
+- Estrutura interessante: Backlog, Retorno de qualidade, Desenvolvimento, Teste, Finalizada
+- A tela lembro muito o software "Trello"
+
+Aula 76: Criando uma "Wiki" no GitHub
+- Na aba "Wiki" podemos criar uma documentação mais extensa para o projeto
+- Como descrever funcionalidades, bugs conhecidos e não solucionados, entre outras funções
+- A ideia é que seja um repositório de conhecimento sobre o projeto
+
+Aula 77: Visualizando os dados do projeto
+- Na aba "Insights" temos informações detalhadas do projeto, como:
+- Quem são os contribuidores, commits, forks e muito mais
+- Interessante para entender como o projeto está andando e a sua evolução desde o ínicio
+
+Aula 78: Configurações do repositório
+- Na aba "Settings" temos acesso a diversas configurações do projeto
+- É onde podemos alterar o nome do repositório ou remover/adicionar features
+- E também é nela que adicionamos colaboradores ao projeto
+- O repositório pode ser removido nesta aba
+
+Aula 79: Criando gists
 - 
