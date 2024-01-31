@@ -423,9 +423,11 @@ Aula 68: Melhorando as mensagens dos commits
 - Comandos:
     - `git rebase BRANCHATUAL PRIVATEBRANCH -i` *realizado para "mergear" commits com nomenclaturas erradas ou fora do padrão e também para renomear commits ajudando em possíveis tshoots com o `git log`. O conceito de private branch é a criação de uma branch derivadas de outro branch que não seja a main/master*
     - ~~~
-        Teste
-        Teste2
+        git commit -a -m "Assunto do commit
+        >> 
+        >> inserindo mais uma linha de um commit, exemplificando o corpo da mensagem"
       ~~~
+    - *com o comando acima é exemplificado a inserção de um assunto padronizado ao commit e após um "enter" podemos inserir uma explicação mais detalhada do commit*
 
 ## Explorando e entendendo o GitHub
 
