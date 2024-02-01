@@ -515,4 +515,9 @@ Aula 81: Conclusão da seção
     - Introdução breve do que aprenderemos na seção "Markdown do básico ao avançado"
 
     Aula 83: O que é Markdown
-    - 
+    - O Markdown é uma forma de adicionar estilo a textos na web
+    - O arquivo README.md aceita Markdown
+    - Você vai conseguir exibir: Trechos de código, links, imagens e muito mais
+    - Dando uma melhor experiência para o usuário nas suas documentações
+
+    Aula 84: 
