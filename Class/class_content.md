@@ -2,11 +2,13 @@
 
 ## Introdução e instalação das dependências
 
-Aula 1: Introdução
-- Introdução ao que aprenderemos durante o curso, comandos e conceitos sobre Git e GitHub.
+1. Introdução
 
-Aula 2: Apresentação do curso
-- Apresentação de como foi separadas as seções e de que forma iremos aprender.
+    Introdução ao que aprenderemos durante o curso, comandos e conceitos sobre Git e GitHub.
+
+2. Apresentação do curso
+
+    Apresentação de como foi separadas as seções e de que forma iremos aprender.
 
 Aula 3: Instalando o Git no Windows
 - Instalando git via chocolatey: `choco install git` ou instalando baixando o executável nesse link <https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git>
@@ -509,15 +511,32 @@ Aula 81: Conclusão da seção
     - _Gist_ é possível criar um "mini" repositório, criando pequenos arquivos e sendo possível compartilha-los
     - No GitHub existem milhares de repositórios e algum deles pode ser útil para o seu desenvolvimento
 
-    ## Markdown do básico ao avançado
+## Markdown do básico ao avançado
 
-    Aula 82: Introdução da seção
-    - Introdução breve do que aprenderemos na seção "Markdown do básico ao avançado"
+Aula 82: Introdução da seção
+- Introdução breve do que aprenderemos na seção "Markdown do básico ao avançado"
 
-    Aula 83: O que é Markdown
-    - O Markdown é uma forma de adicionar estilo a textos na web
-    - O arquivo README.md aceita Markdown
-    - Você vai conseguir exibir: Trechos de código, links, imagens e muito mais
-    - Dando uma melhor experiência para o usuário nas suas documentações
+Aula 83: O que é Markdown
+- O Markdown é uma forma de adicionar estilo a textos na web
+- O arquivo README.md aceita Markdown
+- Você vai conseguir exibir: Trechos de código, links, imagens e muito mais
+- Dando uma melhor experiência para o usuário nas suas documentações
 
-    Aula 84: 
+Aula 84: Criando títulos
+- Os cabeçalhos em Markdown são determinados pelo símbolo `#`
+- Cabeçalhos são os famosos títulos ou heading do HTML
+- `#` = H1, `##` = H2, `###` = H3 e assim por diante
+
+Aula 85: Ênfase nos textos
+- Temos símbolos que podem dar ênfase ao texto
+- Para escrever em negrito: `**TEXTO**` ou `__TEXTO__`
+- Para escrever em itálico: `*TEXTO*` ou `_TEXTO_`
+- Combinando os dois: _um **TEXTO** combinado_
+
+Aula 86: Listas com Markdown
+* Temos as listas ordenadas e não ordenadas em Markdown
+- As listas não ordenadas começam os ítens com: `* Item` ou `- Item`
+- As listas ordenadas com: `1. Item`
+
+Aula 87: Inserindo imagens
+- 
