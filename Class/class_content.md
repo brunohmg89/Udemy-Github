@@ -485,4 +485,34 @@ Aula 78: Configurações do repositório
 - O repositório pode ser removido nesta aba
 
 Aula 79: Criando gists
-- 
+- Gist são pequenos blocos de código que podem ser hospedados no GitHub também
+- Você pode armazenar uma solução que achou interessante para algum problema e não quer perder, por exemplo
+- E o link do Gist pode ser compartilhado
+- No fim das contas o Gist acaba sendo um repositório também
+
+Aula 80: Buscando repositórios interessantes
+- O GitHub não serve só para salvar os nossos projetos, podemos encontrar repositório interessantes
+- Podemos até aprender com isso também, olhando o código fonte de desenvolvedores experientes
+- E não para por ai, você pode dar "star" nos projetos que gostou ou "fork" nos que deseja continuar em um repo próprio
+
+Aula 81: Conclusão da seção
+- Concluindo seção de Explorando e entendendo o GitHub.
+- Resumo:
+    - Aba _Code_ onde fica o código do projeto, como README.md
+    - Aba _Issue_ onde podemos criar tarefas e bugs para possível resolução
+    - Aba _Pull Request_ onde inserimos códigos a partir de uma branch para que outros devs possam analisar antes de ser mergeada com a main
+    - Aba _Actions_ onde podemos criar ações para conexões com APIs ou CI/CD
+    - Aba _Projects_ onde podemos criar um Kanban, com tarefas e seus estágios de desenvolvimento
+    - Aba _Wiki_ onde podemos criar um "repositório de conhecimento" adicionandos tutoriais e passo a passo de alguma solução
+    - Aba _Insights_ onde vemos as métricas do repositório
+    - Aba _Settings_ onde podemos alterar as configurações do projeto
+    - _Gist_ é possível criar um "mini" repositório, criando pequenos arquivos e sendo possível compartilha-los
+    - No GitHub existem milhares de repositórios e algum deles pode ser útil para o seu desenvolvimento
+
+    ## Markdown do básico ao avançado
+
+    Aula 82: Introdução da seção
+    - Introdução breve do que aprenderemos na seção "Markdown do básico ao avançado"
+
+    Aula 83: O que é Markdown
+    - 
