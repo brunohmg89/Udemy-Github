@@ -540,4 +540,12 @@
     - As listas ordenadas com: `1. Item`
 
 87. Inserindo imagens
+    - É possível inserir imagens em Markdown também
+    - Veja a sintaxe: `![Texto](Link da imagem)`
+        - Imagem local: ![Luffy Local](/UDEMY-GIT-GITHUB/Class/img/luffy.png)
+        - Imagem externa: ![Luffy Externo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fanimerant.com.br%2Fanime-manga%2Fone-piece-o-riso-do-gear-5-de-luffy-nao-e-apenas-comedia-e-o-seu-crescimento-pessoal%2F&psig=AOvVaw0PW6aBaXQM-JNXOCjhB9mA&ust=1706903826547000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjp4LP2ioQDFQAAAAAdAAAAABAE) 
+        
+    - A imagem pode estar no próprio repo ou ser externa
+
+88. Links em Markdown
     - 
