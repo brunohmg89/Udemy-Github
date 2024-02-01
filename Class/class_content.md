@@ -1,6 +1,6 @@
 # Github - Udemy
 
-## Introdução e instalação das dependências
+## Seção 1: Introdução e instalação das dependências
 
 1. Introdução
 
@@ -54,7 +54,7 @@
 13. Conclusão da primeira seção
     - Conclusão da introdução e da instalação das principais dependências.
 
-## Git fundamental
+## Seção 2: Git fundamental
 
 14. Introdução da seção
     - Iremos aprender comandos fundamentais do Git
@@ -198,345 +198,345 @@
     - Teste 1: Quiz sobre os comandos fundamentais
         - Contém 4 perguntas, 100% de acerto
 
-## Trabalhando com Branches
+## Seção 3: Trabalhando com Branches
 
-Aula 33: Introdução sobre a seção
-- Introdução breve do que aprenderemos na seção "trabalhando com branches"
+33. Introdução sobre a seção
+    - Introdução breve do que aprenderemos na seção "trabalhando com branches"
 
-Aula 34: O que são Branches
-- Branch é uma forma que o Git separa as versões dos projetos;
-- Quando um projeto é criado ele inicia na branch `main`, estamos trabalhando nela até este ponto do curso;
-- Geralmente cada nova feature de um projeto fica em uma branch separada;
-- Após a finalização das alterações os branches são unidos para ter o código-fonte final
+34. O que são Branches
+    - Branch é uma forma que o Git separa as versões dos projetos;
+    - Quando um projeto é criado ele inicia na branch `main`, estamos trabalhando nela até este ponto do curso;
+    - Geralmente cada nova feature de um projeto fica em uma branch separada;
+    - Após a finalização das alterações os branches são unidos para ter o código-fonte final
 
-Aula 35: criando e visualizando branches
-- Para visualizar os branches disponíveis basta digitar `git branch`
-- Para cria um branch você precisa utilizar o comando `git branch NOMEPARABRANCH`
-- Estas duas operações são muito utilizadas no dia a dia de um dev
+35. Criando e visualizando branches
+    - Para visualizar os branches disponíveis basta digitar `git branch`
+    - Para cria um branch você precisa utilizar o comando `git branch NOMEPARABRANCH`
+    - Estas duas operações são muito utilizadas no dia a dia de um dev
 
-Aula 36: Deletando branches
-- Podemos deletar um branch com a flg `-d` ou `--delete`
-- Comando: `git branch -d NOMEDABRANCH`
-- Não é comum deletar um branch, normalmente guardamos o histórico do trabalho;
-- Geralmente se usa o delete quando o branch foi criado errado
+36. Deletando branches
+    - Podemos deletar um branch com a flg `-d` ou `--delete`
+    - Comando: `git branch -d NOMEDABRANCH`
+    - Não é comum deletar um branch, normalmente guardamos o histórico do trabalho;
+    - Geralmente se usa o delete quando o branch foi criado errado
 
-Aula 37: Mudando de branch
-- Podemos mudar para outro branch utilizando o comando `git checkout -b NOMEDABRANCH` (esse comando muda de branch já criando um novo)
-- Esta comando também é utilizado para dispensar mudanças de um arquivo
-- Alterando o branch podemos levar alterações que não foram commitadas junto, tome cuidado
+37. Mudando de branch
+    - Podemos mudar para outro branch utilizando o comando `git checkout -b NOMEDABRANCH` (esse comando muda de branch já criando um novo)
+    - Esta comando também é utilizado para dispensar mudanças de um arquivo
+    - Alterando o branch podemos levar alterações que não foram commitadas junto, tome cuidado
 
-Aula 38: Unindo branches
-- O código de dois branches distintos pode ser unido pelo comando `git merge NOMEDABRANCH`
-- Outro comando para a lista dos mais utilizados
-- Normalmente é por meio dele que recebemos as atualizações de outros devs
+38. Unindo branches
+    - O código de dois branches distintos pode ser unido pelo comando `git merge NOMEDABRANCH`
+    - Outro comando para a lista dos mais utilizados
+    - Normalmente é por meio dele que recebemos as atualizações de outros devs
 
-Aula 39: Utilizando a stach
-- Podemos salvar as modificações atuais para prosseguir com uma outra abordagem de solução e não perder o código
-- O comando para esta ação é o `git stash`
-- Após o comando o branch será resetado para a sua versão de acordo com o repo
+39. Utilizando a stach
+    - Podemos salvar as modificações atuais para prosseguir com uma outra abordagem de solução e não perder o código
+    - O comando para esta ação é o `git stash`
+    - Após o comando o branch será resetado para a sua versão de acordo com o repo
 
-Aula 40: Recuperando stach
-- Podemos verificar as stashs criadas pelo comando `git stash list`
-- E também podemos recuperar a stash com o comando `git stash NOMEDASTASH`
-- Verificando alterações da stash `git stash shown -p NUMERODASTASH`
-- Desta maneira podemos continuar de onde paramos com os arquivos adicionados a stash
+40. Recuperando stach
+    - Podemos verificar as stashs criadas pelo comando `git stash list`
+    - E também podemos recuperar a stash com o comando `git stash NOMEDASTASH`
+    - Verificando alterações da stash `git stash shown -p NUMERODASTASH`
+    - Desta maneira podemos continuar de onde paramos com os arquivos adicionados a stash
 
-Aula 41: Removendo a stash
-- Para limpar totalmente as stashs de um branch podemos utilizar o comando `git stash clear`
-- Caso seja necessário deletar uma stash especifica podemos utilizar `git stash drop NUMERODASTASH`
+41. Removendo a stash
+    - Para limpar totalmente as stashs de um branch podemos utilizar o comando `git stash clear`
+    - Caso seja necessário deletar uma stash especifica podemos utilizar `git stash drop NUMERODASTASH`
 
-Aula 42: Criando Tags
-- Podemos criar tags nos branches por meio do comando `git tag -a NOMEDATAG -m "MENSAGEM"`
-- A tag é diferente do stash, serve como um checkpoint de um branch
-- É utilizada para demonstrar estágios do desenvolvimento de algum recurso
+42. Criando Tags
+    - Podemos criar tags nos branches por meio do comando `git tag -a NOMEDATAG -m "MENSAGEM"`
+    - A tag é diferente do stash, serve como um checkpoint de um branch
+    - É utilizada para demonstrar estágios do desenvolvimento de algum recurso
 
-Aula 43: Alterando a tag
-- Podemos verificar uma tag com o comando `git show NOMEDATAG`
-- Podemos trocar de tags com o comando `git checkout NOMEDATAG`
-- Desta maneira podemos retroceder ou avançar em checkpoints de um branch
+43. Alterando a tag
+    - Podemos verificar uma tag com o comando `git show NOMEDATAG`
+    - Podemos trocar de tags com o comando `git checkout NOMEDATAG`
+    - Desta maneira podemos retroceder ou avançar em checkpoints de um branch
 
-Aula 44: Enviando tags ao repositório
-- As tags podem ser enviadas para o repositório de código, senda compartilhada entre os devs
-- O comando é `git push origin NOMEDATAG`
-- Ou se você quiser enviar mais tags `git push origin --tags`
+44. Enviando tags ao repositório
+    - As tags podem ser enviadas para o repositório de código, senda compartilhada entre os devs
+    - O comando é `git push origin NOMEDATAG`
+    - Ou se você quiser enviar mais tags `git push origin --tags`
 
-Aula 45: Conclusão da seção
-- Concluindo seção com comandos relacionados a branches.
-- Resumo dos comandos:
-    - `git branch` *para listar as branches existentes* 
-    - `git branch NOMEDABRANCH` *para criar uma branch*
-    - `git branch -d NOMEDABRANCH` ou `git branch --delete NOMEDABRANCH`*para deletar uma branch*
-    - `git checkout -b NOMEDABRANCH` *para criar uma nova branch saindo da anterior*
-    - `git merge NOMEDABRANCH` *para mergear as alterações realizadas em uma branch para outra*
-    - `git stash` *para criar um stash*
-    - `git stash list` *listar stashs*
-    - `git stash NOMEDASTASH` *recuperar uma stash*
-    - `git stash shown -p NUMERODASTASH` *listar as alterações da stash*
-    - `git stash clear` *limpar todas as stashs*
-    - `git stash drop NUMERODASTASH` *limpar stash especifica*
-    - `git tag -a NOMEDATAG -m "MENSAGEM"` *criando uma tag em uma branch*
-    - `git tag` *listar tags*
-    - `git show NOMEDATAG` *listar alterações contidas na tag*
-    - `git checkout NOMEDATAG` *entrar em uma tag*
-    - `git push origin NOMEDATAG` *enviar a tag para o repositório*
-    - `git push origin --tags` *enviar todas as tags criadas para o repositório*
+45. Conclusão da seção
+    - Concluindo seção com comandos relacionados a branches.
+    - Resumo dos comandos:
+        - `git branch` *para listar as branches existentes* 
+        - `git branch NOMEDABRANCH` *para criar uma branch*
+        - `git branch -d NOMEDABRANCH` ou `git branch --delete NOMEDABRANCH`*para deletar uma branch*
+        - `git checkout -b NOMEDABRANCH` *para criar uma nova branch saindo da anterior*
+        - `git merge NOMEDABRANCH` *para mergear as alterações realizadas em uma branch para outra*
+        - `git stash` *para criar um stash*
+        - `git stash list` *listar stashs*
+        - `git stash NOMEDASTASH` *recuperar uma stash*
+        - `git stash shown -p NUMERODASTASH` *listar as alterações da stash*
+        - `git stash clear` *limpar todas as stashs*
+        - `git stash drop NUMERODASTASH` *limpar stash especifica*
+        - `git tag -a NOMEDATAG -m "MENSAGEM"` *criando uma tag em uma branch*
+        - `git tag` *listar tags*
+        - `git show NOMEDATAG` *listar alterações contidas na tag*
+        - `git checkout NOMEDATAG` *entrar em uma tag*
+        - `git push origin NOMEDATAG` *enviar a tag para o repositório*
+        - `git push origin --tags` *enviar todas as tags criadas para o repositório*
 
-## Compartilhamento e atualização de repositórios
+## Seção 4: Compartilhamento e atualização de repositórios
 
-Aula 46: Introdução da seção
-- Introdução breve do que aprenderemos na seção "Compartilhamento e atualização de repositórios"
+46. Introdução da seção
+    - Introdução breve do que aprenderemos na seção "Compartilhamento e atualização de repositórios"
 
-Aula 47: Encontrando branches
-- Branches novos são criados a todo tempo e o seu git pode não estar mapeando eles
-- Com o comando `git fetch` você é atualizado de todos os branches e tags que ainda não estão reconhecidos por você
-- Este comando é útil para utilizar o branch de algum outro dev do time, por exemplo
+47. Encontrando branches
+    - Branches novos são criados a todo tempo e o seu git pode não estar mapeando eles
+    - Com o comando `git fetch` você é atualizado de todos os branches e tags que ainda não estão reconhecidos por você
+    - Este comando é útil para utilizar o branch de algum outro dev do time, por exemplo
 
-Aula 48: Recebendo atualizações
-- O comando `git pull` serve para recebermos atualizações do repositório remoto
-- Cada branch pode ser atualizada com o git pull
-- Utilizamos para atualizar a main do repo como também quando trabalhamos em conjunto e queremos receber atualizações de uma dev
+48. Recebendo atualizações
+    - O comando `git pull` serve para recebermos atualizações do repositório remoto
+    - Cada branch pode ser atualizada com o git pull
+    - Utilizamos para atualizar a main do repo como também quando trabalhamos em conjunto e queremos receber atualizações de uma dev
 
-Aula 49: Enviando alterações
-- O comando `git push` faz o inverso do pull, ele envia as alterações para o repo remoto
-- Serve também para enviar as atualizações de um branch especifico para um outro dev
-- Ou quando terminamos uma tarefa e precisamos enviar ao repo
+49. Enviando alterações
+    - O comando `git push` faz o inverso do pull, ele envia as alterações para o repo remoto
+    - Serve também para enviar as atualizações de um branch especifico para um outro dev
+    - Ou quando terminamos uma tarefa e precisamos enviar ao repo
 
-Aula 50: Utilizando o remote
-- Com o `git remote` podemos fazer algumas ações como, adicionar um repo para trackear ou remover
-- Quando criamos um repo remoto, adicionamos ele ao git com o comando `git remote add origin LINKDOREPO`
+50. Utilizando o remote
+    - Com o `git remote` podemos fazer algumas ações como, adicionar um repo para trackear ou remover
+    - Quando criamos um repo remoto, adicionamos ele ao git com o comando `git remote add origin LINKDOREPO`
 
-Aula 51: Conhecendo os submodules
-- Submódulo é a maneira que temos de possuir dois ou mais projetos em um só repositório
-- Podemos adicionar uma dependência ao nosso projeto atual, porém mantendo suas estruturas separadas
-- Para adicionar o submódulo utilizamos o comando `git submodule add REPO`
-- Para verificar os submódulos o comando é `git submodule`
+51. Conhecendo os submodules
+    - Submódulo é a maneira que temos de possuir dois ou mais projetos em um só repositório
+    - Podemos adicionar uma dependência ao nosso projeto atual, porém mantendo suas estruturas separadas
+    - Para adicionar o submódulo utilizamos o comando `git submodule add REPO`
+    - Para verificar os submódulos o comando é `git submodule`
 
-Aula 52: Atualizando os Submódulos
-- Para atualizar um submódulo primeiro devemos commitar as mudanças
-- E para enviar para o repositório do submódulo utilizamos `git push --recurse-submodules=on-demand`
-- Este fluxo fará a atualização apenas do submódulo
+52. Atualizando os Submódulos
+    - Para atualizar um submódulo primeiro devemos commitar as mudanças
+    - E para enviar para o repositório do submódulo utilizamos `git push --recurse-submodules=on-demand`
+    - Este fluxo fará a atualização apenas do submódulo
 
-Aula 53: Conclusão da seção
-- Concluindo seção com compartilhamento e atualização de repositórios.
-- Resumo dos comandos:
-    - `git fetch` *para "baixar" as branchs e tags do repositório remoto*
-    - `git pull` *serve para baixar as atualizações da branch*
-    - `git push` *serve para enviar todas as alterações realizadas para a branch remota*
-    - `git remote` *atrela ou sincroniza um repositório a um diretório*
-    - `git remote -v` *mostra a origem do repositório*
-    - `git remote rm origin` *remove ou desacocla o diretório do repositório remoto*
-    - `git remote add origin LINKDOREPOSITORIO` *sincroniza um repositório novamente ao diretório local*
-    - `git submodule` *mostra os submodelos de um repositório*
-    - `git submodule add REPO` *adiciona um repositório dentro de outro*
-    - `git push --recurse-submodules=on-demand` *esse push faz com que a atualização seja realizado no repositório de origem*
+53. Conclusão da seção
+    - Concluindo seção com compartilhamento e atualização de repositórios.
+    - Resumo dos comandos:
+        - `git fetch` *para "baixar" as branchs e tags do repositório remoto*
+        - `git pull` *serve para baixar as atualizações da branch*
+        - `git push` *serve para enviar todas as alterações realizadas para a branch remota*
+        - `git remote` *atrela ou sincroniza um repositório a um diretório*
+        - `git remote -v` *mostra a origem do repositório*
+        - `git remote rm origin` *remove ou desacocla o diretório do repositório remoto*
+        - `git remote add origin LINKDOREPOSITORIO` *sincroniza um repositório novamente ao diretório local*
+        - `git submodule` *mostra os submodelos de um repositório*
+        - `git submodule add REPO` *adiciona um repositório dentro de outro*
+        - `git push --recurse-submodules=on-demand` *esse push faz com que a atualização seja realizado no repositório de origem*
 
-## Análise e inspeção de repositórios
+## Seção 5: Análise e inspeção de repositórios
 
-Aula 54: Introdução da seção
-- Introdução breve do que aprenderemos na seção "análise e inspeção de repositório"
+54. Introdução da seção
+    - Introdução breve do que aprenderemos na seção "análise e inspeção de repositório"
 
-Aula 55: Exibindo detalhes de branches e tags
-- O comando `git show` nos dá diversas informações úteis
-- Ele nos dá as informações do branch atual e também seus commits
-- As modificações de arquivos entre cada commit também são exibidas
-- Podemos exibir as informações de tags também com o comando `git show TAG`
+55. Exibindo detalhes de branches e tags
+    - O comando `git show` nos dá diversas informações úteis
+    - Ele nos dá as informações do branch atual e também seus commits
+    - As modificações de arquivos entre cada commit também são exibidas
+    - Podemos exibir as informações de tags também com o comando `git show TAG`
 
-Aula 56: Verificando diferenças
-- O comando `git diff` serve para exibir as diferenças de uma branch
-- Quando utilizado as diferenças do branch atual com o remoto serão exibidas no terminal
-- Podemos também verificar a diferença entre arquivos `git diff ARQUIVO1 ARQUIVO2`
+56. Verificando diferenças
+    - O comando `git diff` serve para exibir as diferenças de uma branch
+    - Quando utilizado as diferenças do branch atual com o remoto serão exibidas no terminal
+    - Podemos também verificar a diferença entre arquivos `git diff ARQUIVO1 ARQUIVO2`
 
-Aula 57: Log de atividades resumido
-- O comando `git shortlog` nos dá um log resumido do projeto
-- Cada commit será unido por nome do autor
-- Podemos então saber quais commits foram enviados ao projeto e por quem
+57. Log de atividades resumido
+    - O comando `git shortlog` nos dá um log resumido do projeto
+    - Cada commit será unido por nome do autor
+    - Podemos então saber quais commits foram enviados ao projeto e por quem
 
-Aula 58: Conclusão da seção
-- Concluindo seção de análise e inspeção de repositórios
-- Resumo dos comandos:
-    - `git show` *mostra informações sobre todas as alterações realizados no repositório*
-    - `git show TAG` *mostra as informações sobre todas as alterações realizados em Tags no repositório*
-    - `git diff` *mostra todas as alterações nos arquivos que foram realizadas*
-    - `git diff HEAD:ARQUIVO1 ARQUIVO1` *mostra as diferenças entre o arquivo local e do repositório*
-    - `git shortlog` *nos dá um log resumidos de todos os commits que foram realizados no repositório*
+58. Conclusão da seção
+    - Concluindo seção de análise e inspeção de repositórios
+    - Resumo dos comandos:
+        - `git show` *mostra informações sobre todas as alterações realizados no repositório*
+        - `git show TAG` *mostra as informações sobre todas as alterações realizados em Tags no repositório*
+        - `git diff` *mostra todas as alterações nos arquivos que foram realizadas*
+        - `git diff HEAD:ARQUIVO1 ARQUIVO1` *mostra as diferenças entre o arquivo local e do repositório*
+        - `git shortlog` *nos dá um log resumidos de todos os commits que foram realizados no repositório*
 
-## Administração de repositórios
+## Seção 6: Administração de repositórios
 
-Aula 59: Introdução da seção
-- Introdução breve do que aprenderemos na seção de "administração de repositórios"
+59. Introdução da seção
+    - Introdução breve do que aprenderemos na seção de "administração de repositórios"
 
-Aula 60: Limpando arquivos untracked
-- O comando `git clean -f` vai verificar e limpar arquivos que não estão sendo trackeados
-- Ou seja, todos os arquivos que você não utilizou o `git add`
-- Utilizado para arquivos que são gerados automaticamente, por exemplo, e atrapalham a visualização do que é realmente importante
+60. Limpando arquivos untracked
+    - O comando `git clean -f` vai verificar e limpar arquivos que não estão sendo trackeados
+    - Ou seja, todos os arquivos que você não utilizou o `git add`
+    - Utilizado para arquivos que são gerados automaticamente, por exemplo, e atrapalham a visualização do que é realmente importante
 
-Aula 61: Otimizando repositórios
-- O comando `git gc` é uma abreviação para "garbage collector"
-- Ele indica arquivos que não são mais necessários e os exclui
-- Isso fará com o que o repositório seja otimizado em questões de performance
+61. Otimizando repositórios
+    - O comando `git gc` é uma abreviação para "garbage collector"
+    - Ele indica arquivos que não são mais necessários e os exclui
+    - Isso fará com o que o repositório seja otimizado em questões de performance
 
-Aula 62: Verificando integridade dos arquivos
-- O comando `git fsck` é uma abreviação de "File System ChecK"
-- Esta instrução verifica a integridade de arquivos e sua conectividade
-- Verificando assim possíveis corrupções em arquivos
-- Comando de rotina, utilizado para ver se está tudo certo com nossos arquivos
+62. Verificando integridade dos arquivos
+    - O comando `git fsck` é uma abreviação de "File System ChecK"
+    - Esta instrução verifica a integridade de arquivos e sua conectividade
+    - Verificando assim possíveis corrupções em arquivos
+    - Comando de rotina, utilizado para ver se está tudo certo com nossos arquivos
 
-Aula 63: Reflog
-- O `git reflog` vai mapear todos os seus passos no repositório, até uma mudança de branch é inserida neste log
-- Já o `git log`, que vimos anteriormente, apenas armazena os commits de uma branch
-- Os reflogs ficam salvos até expirar, o tempo de expiração padrão é de 30 dias
+63. Reflog
+    - O `git reflog` vai mapear todos os seus passos no repositório, até uma mudança de branch é inserida neste log
+    - Já o `git log`, que vimos anteriormente, apenas armazena os commits de uma branch
+    - Os reflogs ficam salvos até expirar, o tempo de expiração padrão é de 30 dias
 
-Aula 64: Comprimindo o repositório
-- Com o comando `git archive` podemos transformar o repositório em um arquivo compactado, por exemplo
-- O comando é `git archive --format zip --output main_files.zip main`
-- E então a master vai estar zipada no arquivo "master_files.zip"
+64. Comprimindo o repositório
+    - Com o comando `git archive` podemos transformar o repositório em um arquivo compactado, por exemplo
+    - O comando é `git archive --format zip --output main_files.zip main`
+    - E então a master vai estar zipada no arquivo "master_files.zip"
 
-Aula 65: Conclusão da seção
-- Concluindo seção de administração de repositórios
-- Resumo dos comandos:
-    - `git clean -f` *para limpar todos os arquivos que não foram trackeados, ou seja, novos arquivos*
-    - `git gc` *limpa arquivos desnecessários para o repositório e os limpa*
-    - `git fsck` *faz uma varredura se existe arquivos corrompidos, mantendo a saúde do repositório*
-    - `git reflog` *traça todo seu histório de alterações e movimentações no repositório*
-    - `git archive --format zip --output NOMEDOARQUIVO.zip main` *cria um arquivo "zipado" de todos o projetos e seus arquivos*
+65. Conclusão da seção
+    - Concluindo seção de administração de repositórios
+    - Resumo dos comandos:
+        - `git clean -f` *para limpar todos os arquivos que não foram trackeados, ou seja, novos arquivos*
+        - `git gc` *limpa arquivos desnecessários para o repositório e os limpa*
+        - `git fsck` *faz uma varredura se existe arquivos corrompidos, mantendo a saúde do repositório*
+        - `git reflog` *traça todo seu histório de alterações e movimentações no repositório*
+        - `git archive --format zip --output NOMEDOARQUIVO.zip main` *cria um arquivo "zipado" de todos o projetos e seus arquivos*
 
-## Melhorando os commits do projetos
+## Seção 7: Melhorando os commits do projetos
 
-Aula 66: A importância dos commits
-- O problema: commits sem sentido atrapalham o projeto
-- Precisamos padronizar os commits, para que o projeto cresça de forma saudável também no versionamento, isso ajuda em:
-- Review do Pull Request
-- Melhoria dos logs em `git log`
-- Manutenção do projeto (voltar código, por exemplo)
+66. A importância dos commits
+    - O problema: commits sem sentido atrapalham o projeto
+    - Precisamos padronizar os commits, para que o projeto cresça de forma saudável também no versionamento, isso ajuda em:
+    - Review do Pull Request
+    - Melhoria dos logs em `git log`
+    - Manutenção do projeto (voltar código, por exemplo)
 
-Aula 67: Técnica de private branch
-- Há uma solução chamada private branches
-- Onde criamos branches que não serão compartilhadas no repositório, então podemos colocar qualquer commit
-- Ao fim da solução do problema podemos fazer um rebase
-- O comando será `git rebase BRANCHATUAL BRANCHFUNCIONALIDADE -i`
-- Escolhemos os branches para excluir (squash) e renomear com (reword)
+67. Técnica de private branch
+    - Há uma solução chamada private branches
+    - Onde criamos branches que não serão compartilhadas no repositório, então podemos colocar qualquer commit
+    - Ao fim da solução do problema podemos fazer um rebase
+    - O comando será `git rebase BRANCHATUAL BRANCHFUNCIONALIDADE -i`
+    - Escolhemos os branches para excluir (squash) e renomear com (reword)
 
-Aula 68: Melhorando as mensagens dos commits
-- Separar assunto do corpo da mensagem
-- Assunto com no máximo 50 caracteres
-- Assunto com letra inicial maiúscula
-- Corpo com no máximo 72 caracteres
-- Explicar o porque e como do commit, e não como o código foi escrito
-- Comandos:
-    - `git rebase BRANCHATUAL PRIVATEBRANCH -i` *realizado para "mergear" commits com nomenclaturas erradas ou fora do padrão e também para renomear commits ajudando em possíveis tshoots com o `git log`. O conceito de private branch é a criação de uma branch derivadas de outro branch que não seja a main/master*
-    - ~~~
-        git commit -a -m "Assunto do commit
-        >> 
-        >> inserindo mais uma linha de um commit, exemplificando o corpo da mensagem"
-      ~~~
-    - *com o comando acima é exemplificado a inserção de um assunto padronizado ao commit e após um "enter" podemos inserir uma explicação mais detalhada do commit*
+68. Melhorando as mensagens dos commits
+    - Separar assunto do corpo da mensagem
+    - Assunto com no máximo 50 caracteres
+    - Assunto com letra inicial maiúscula
+    - Corpo com no máximo 72 caracteres
+    - Explicar o porque e como do commit, e não como o código foi escrito
+    - Comandos:
+        - `git rebase BRANCHATUAL PRIVATEBRANCH -i` *realizado para "mergear" commits com nomenclaturas erradas ou fora do padrão e também para renomear commits ajudando em possíveis tshoots com o `git log`. O conceito de private branch é a criação de uma branch derivadas de outro branch que não seja a main/master*
+        - ~~~
+            git commit -a -m "Assunto do commit
+            >> 
+            >> inserindo mais uma linha de um commit, exemplificando o corpo da mensagem"
+          ~~~
+        - *com o comando acima é exemplificado a inserção de um assunto padronizado ao commit e após um "enter" podemos inserir uma explicação mais detalhada do commit*
 
-## Explorando e entendendo o GitHub
+## Seção 8: Explorando e entendendo o GitHub
 
-Aula 69: Introdução da seção
-- Introdução breve do que aprenderemos na seção "Explorando e entendendo o GitHub"
+69. Introdução da seção
+    - Introdução breve do que aprenderemos na seção "Explorando e entendendo o GitHub"
 
-Aula 70: Criando repositório
-- No GitHub inicializamos os repositórios, e temos algumas informações importantes para preencher, vamos vê-las em detalhes:
-- Algumas delas são: Nome do repositório, descrição, licença
-- Tudo poderá ser alterado ao longo do seu projeto, mas é interessante conhecer os detalhes das informações para configurar um projeto.
+70. Criando repositório
+    - No GitHub inicializamos os repositórios, e temos algumas informações importantes para preencher, vamos vê-las em detalhes:
+    - Algumas delas são: Nome do repositório, descrição, licença
+    - Tudo poderá ser alterado ao longo do seu projeto, mas é interessante conhecer os detalhes das informações para configurar um projeto.
 
-Aula 71: Verificando código fonte e licenças
-- Na aba "Code" teremos acesso a informações importantes, como o próprio código-fonte
-- Podemos checar também uma documentação do projeto pelo `README.md`
-- E os detalhes da licença do projeto
-- Criar branches, adicionar arquivos e muito mais
+71. Verificando código fonte e licenças
+    - Na aba "Code" teremos acesso a informações importantes, como o próprio código-fonte
+    - Podemos checar também uma documentação do projeto pelo `README.md`
+    - E os detalhes da licença do projeto
+    - Criar branches, adicionar arquivos e muito mais
 
-Aula 72: Criando e verificando issues
-- Na aba "Issue" podemos criar tarefas ou possíveis bugs do projeto
-- Interessante para a organização se manter ciente do que ainda precisa fazer ou corrigir
-- Normalmente há um padrão para a criação de novos issues
-- Podemos utilizar o Markdown no texto também (igual no README.md)
-- A issue deve ter uma label e também um responsável
+72. Criando e verificando issues
+    - Na aba "Issue" podemos criar tarefas ou possíveis bugs do projeto
+    - Interessante para a organização se manter ciente do que ainda precisa fazer ou corrigir
+    - Normalmente há um padrão para a criação de novos issues
+    - Podemos utilizar o Markdown no texto também (igual no README.md)
+    - A issue deve ter uma label e também um responsável
 
-Aula 73: Atualizando projeto por Pull Request
-- Na aba "Pull Request" é onde os colaboradores do projeto enviam código para resolver as issues ou adicionar novas funcionalidades ao projeto
-- A ideia é que o código não seja inserido direto na main e sim passe por um Pull Request, para ser analisado
-- O Pull Request vem de um novo branch criado no projeto e enviado para o repositório, com o incremento do código
+73. Atualizando projeto por Pull Request
+    - Na aba "Pull Request" é onde os colaboradores do projeto enviam código para resolver as issues ou adicionar novas funcionalidades ao projeto
+    - A ideia é que o código não seja inserido direto na main e sim passe por um Pull Request, para ser analisado
+    - O Pull Request vem de um novo branch criado no projeto e enviado para o repositório, com o incremento do código
 
-Aula 74: Processos de CI/CD no GitHub
-- Na aba "Actions" é onde se cria as automatizações de deploy com integração em outros serviços
-- Incluindo CI/CD (Continuous Integration / Continuous Development)
-- Ou seja, podemos criar uma rotina de atualizar a main automaticamente e outros processos
+74. Processos de CI/CD no GitHub
+    - Na aba "Actions" é onde se cria as automatizações de deploy com integração em outros serviços
+    - Incluindo CI/CD (Continuous Integration / Continuous Development)
+    - Ou seja, podemos criar uma rotina de atualizar a main automaticamente e outros processos
 
-Aula 75: Criando projetos no GitHub
-- Na aba "Projects" podemos criar um projeto e utilizar um quadro de tarefas
-- Este processo é conhecido como "Kanban" e pode ajudar a organizar seu time, criando notas que podem virar Issues
-- Estrutura interessante: Backlog, Retorno de qualidade, Desenvolvimento, Teste, Finalizada
-- A tela lembro muito o software "Trello"
+75. Criando projetos no GitHub
+    - Na aba "Projects" podemos criar um projeto e utilizar um quadro de tarefas
+    - Este processo é conhecido como "Kanban" e pode ajudar a organizar seu time, criando notas que podem virar Issues
+    - Estrutura interessante: Backlog, Retorno de qualidade, Desenvolvimento, Teste, Finalizada
+    - A tela lembro muito o software "Trello"
 
-Aula 76: Criando uma "Wiki" no GitHub
-- Na aba "Wiki" podemos criar uma documentação mais extensa para o projeto
-- Como descrever funcionalidades, bugs conhecidos e não solucionados, entre outras funções
-- A ideia é que seja um repositório de conhecimento sobre o projeto
+76. Criando uma "Wiki" no GitHub
+    - Na aba "Wiki" podemos criar uma documentação mais extensa para o projeto
+    - Como descrever funcionalidades, bugs conhecidos e não solucionados, entre outras funções
+    - A ideia é que seja um repositório de conhecimento sobre o projeto
 
-Aula 77: Visualizando os dados do projeto
-- Na aba "Insights" temos informações detalhadas do projeto, como:
-- Quem são os contribuidores, commits, forks e muito mais
-- Interessante para entender como o projeto está andando e a sua evolução desde o ínicio
+77. Visualizando os dados do projeto
+    - Na aba "Insights" temos informações detalhadas do projeto, como:
+    - Quem são os contribuidores, commits, forks e muito mais
+    - Interessante para entender como o projeto está andando e a sua evolução desde o ínicio
 
-Aula 78: Configurações do repositório
-- Na aba "Settings" temos acesso a diversas configurações do projeto
-- É onde podemos alterar o nome do repositório ou remover/adicionar features
-- E também é nela que adicionamos colaboradores ao projeto
-- O repositório pode ser removido nesta aba
+78. Configurações do repositório
+    - Na aba "Settings" temos acesso a diversas configurações do projeto
+    - É onde podemos alterar o nome do repositório ou remover/adicionar features
+    - E também é nela que adicionamos colaboradores ao projeto
+    - O repositório pode ser removido nesta aba
 
-Aula 79: Criando gists
-- Gist são pequenos blocos de código que podem ser hospedados no GitHub também
-- Você pode armazenar uma solução que achou interessante para algum problema e não quer perder, por exemplo
-- E o link do Gist pode ser compartilhado
-- No fim das contas o Gist acaba sendo um repositório também
+79. Criando gists
+    - Gist são pequenos blocos de código que podem ser hospedados no GitHub também
+    - Você pode armazenar uma solução que achou interessante para algum problema e não quer perder, por exemplo
+    - E o link do Gist pode ser compartilhado
+    - No fim das contas o Gist acaba sendo um repositório também
 
-Aula 80: Buscando repositórios interessantes
-- O GitHub não serve só para salvar os nossos projetos, podemos encontrar repositório interessantes
-- Podemos até aprender com isso também, olhando o código fonte de desenvolvedores experientes
-- E não para por ai, você pode dar "star" nos projetos que gostou ou "fork" nos que deseja continuar em um repo próprio
+80. Buscando repositórios interessantes
+    - O GitHub não serve só para salvar os nossos projetos, podemos encontrar repositório interessantes
+    - Podemos até aprender com isso também, olhando o código fonte de desenvolvedores experientes
+    - E não para por ai, você pode dar "star" nos projetos que gostou ou "fork" nos que deseja continuar em um repo próprio
 
-Aula 81: Conclusão da seção
-- Concluindo seção de Explorando e entendendo o GitHub.
-- Resumo:
-    - Aba _Code_ onde fica o código do projeto, como README.md
-    - Aba _Issue_ onde podemos criar tarefas e bugs para possível resolução
-    - Aba _Pull Request_ onde inserimos códigos a partir de uma branch para que outros devs possam analisar antes de ser mergeada com a main
-    - Aba _Actions_ onde podemos criar ações para conexões com APIs ou CI/CD
-    - Aba _Projects_ onde podemos criar um Kanban, com tarefas e seus estágios de desenvolvimento
-    - Aba _Wiki_ onde podemos criar um "repositório de conhecimento" adicionandos tutoriais e passo a passo de alguma solução
-    - Aba _Insights_ onde vemos as métricas do repositório
-    - Aba _Settings_ onde podemos alterar as configurações do projeto
-    - _Gist_ é possível criar um "mini" repositório, criando pequenos arquivos e sendo possível compartilha-los
-    - No GitHub existem milhares de repositórios e algum deles pode ser útil para o seu desenvolvimento
+81. Conclusão da seção
+    - Concluindo seção de Explorando e entendendo o GitHub.
+    - Resumo:
+        - Aba _Code_ onde fica o código do projeto, como README.md
+        - Aba _Issue_ onde podemos criar tarefas e bugs para possível resolução
+        - Aba _Pull Request_ onde inserimos códigos a partir de uma branch para que outros devs possam analisar antes de ser mergeada com a main
+        - Aba _Actions_ onde podemos criar ações para conexões com APIs ou CI/CD
+        - Aba _Projects_ onde podemos criar um Kanban, com tarefas e seus estágios de desenvolvimento
+        - Aba _Wiki_ onde podemos criar um "repositório de conhecimento" adicionandos tutoriais e passo a passo de alguma solução
+        - Aba _Insights_ onde vemos as métricas do repositório
+        - Aba _Settings_ onde podemos alterar as configurações do projeto
+        - _Gist_ é possível criar um "mini" repositório, criando pequenos arquivos e sendo possível compartilha-los
+        - No GitHub existem milhares de repositórios e algum deles pode ser útil para o seu desenvolvimento
 
-## Markdown do básico ao avançado
+## Seção 9: Markdown do básico ao avançado
 
-Aula 82: Introdução da seção
-- Introdução breve do que aprenderemos na seção "Markdown do básico ao avançado"
+82. Introdução da seção
+    - Introdução breve do que aprenderemos na seção "Markdown do básico ao avançado"
 
-Aula 83: O que é Markdown
-- O Markdown é uma forma de adicionar estilo a textos na web
-- O arquivo README.md aceita Markdown
-- Você vai conseguir exibir: Trechos de código, links, imagens e muito mais
-- Dando uma melhor experiência para o usuário nas suas documentações
+83. O que é Markdown
+    - O Markdown é uma forma de adicionar estilo a textos na web
+    - O arquivo README.md aceita Markdown
+    - Você vai conseguir exibir: Trechos de código, links, imagens e muito mais
+    - Dando uma melhor experiência para o usuário nas suas documentações
 
-Aula 84: Criando títulos
-- Os cabeçalhos em Markdown são determinados pelo símbolo `#`
-- Cabeçalhos são os famosos títulos ou heading do HTML
-- `#` = H1, `##` = H2, `###` = H3 e assim por diante
+84. Criando títulos
+    - Os cabeçalhos em Markdown são determinados pelo símbolo `#`
+    - Cabeçalhos são os famosos títulos ou heading do HTML
+    - `#` = H1, `##` = H2, `###` = H3 e assim por diante
 
-Aula 85: Ênfase nos textos
-- Temos símbolos que podem dar ênfase ao texto
-- Para escrever em negrito: `**TEXTO**` ou `__TEXTO__`
-- Para escrever em itálico: `*TEXTO*` ou `_TEXTO_`
-- Combinando os dois: _um **TEXTO** combinado_
+85. Ênfase nos textos
+    - Temos símbolos que podem dar ênfase ao texto
+    - Para escrever em negrito: `**TEXTO**` ou `__TEXTO__`
+    - Para escrever em itálico: `*TEXTO*` ou `_TEXTO_`
+    - Combinando os dois: _um **TEXTO** combinado_
 
-Aula 86: Listas com Markdown
-* Temos as listas ordenadas e não ordenadas em Markdown
-- As listas não ordenadas começam os ítens com: `* Item` ou `- Item`
-- As listas ordenadas com: `1. Item`
+86. Listas com Markdown
+    - Temos as listas ordenadas e não ordenadas em Markdown
+    - As listas não ordenadas começam os ítens com: `* Item` ou `- Item`
+    - As listas ordenadas com: `1. Item`
 
-Aula 87: Inserindo imagens
-- 
+87. Inserindo imagens
+    - 
