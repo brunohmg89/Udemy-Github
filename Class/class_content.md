@@ -553,7 +553,8 @@
     - Se for um link do GitHub pode inserir de forma direta: https://www.github.com
     - Exemplos de links:
         - [Google](https://www.google.com)
-        - [https://www.google.com][https://www.google.com]
+        - <https://www.google.com>
+        - https://www.google.com
         - Perfil do GitHub: https://www.github.com/brunohmg89
         - [![Logo Google](https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png)](https://www.google.com)
 
