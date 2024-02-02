@@ -559,4 +559,26 @@
         - [![Logo Google](https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png)](https://www.google.com)
 
 89. Inserindo código fonte
-    - 
+    - Podemos inserir código no Markdown também
+    - A sintaxe é: "``" 
+    - Exemplos:
+        - Código em uma linha: `Código`
+        - Bloco de código:
+            ```
+            Código
+            ```
+    - Esta sintaxe é do Markdown especial do GitHub
+
+90. Lista de tarefas do projeto
+    - Podemos inserir uma lista de tarefas pelo Markdown
+    - A sintaxe para tarefas concluídas: `- [x] CSS do Rodapé`
+    - Para não concluídas: `- [] CSS da página de contatos`
+    - Exemplos:
+        - [x] Etapa concluída
+        - [ ] Etapa não concluída
+    - Esta sintaxe é do Markdown especial do GitHub
+
+91. Conclusão da seção
+    - Concluindo seção de Markdown do básico ao avançado.
+    - Resumo:
+        - 
