@@ -544,7 +544,6 @@
     - Veja a sintaxe: `![Texto](Link da imagem)`
         - Imagem local: ![Luffy Local](img/luffy.png)
         - Imagem externa: ![Luffy Externo](https://animerant.com.br/wp-content/uploads/2023/08/luffy-is-using-gear-5-in-one-piece-1.jpg) 
-        
     - A imagem pode estar no próprio repo ou ser externa
 
 88. Links em Markdown
@@ -581,4 +580,38 @@
 91. Conclusão da seção
     - Concluindo seção de Markdown do básico ao avançado.
     - Resumo:
-        - 
+        - Criando títulos: `#`
+        - Ênfase nos texto: `**texto**` `__texto__`
+        - Listas: `1. Texto` `- Texto`
+        - Inserindo imagens: `![texto](link)`
+        - Inserindo links: `[Texto](Link)`
+        - Inserindo códigos: utiliza a "`"
+        - Lista de tarefas: `[x]` `[]`
+
+## Seção 10: Projeto - Portfólio com GitHub Pages
+
+92. Introdução da seção
+    - Introdução breve do que aprenderemos na seção "Projeto - Portfólio com GitHub Pages"
+
+93. O que é GitHub Pages
+    - Uma forma de criar uma página estática nos servidores do GitHub
+    - Ou seja, uma alternativa gratuita para hospedar nosso portifólio
+    - Muito simples de colocar no ar, na precisa de domínio ou servidor
+    - Muitas empresas utilizam para apresentar o seu projeto ou a própria documentação
+
+94. Criando repositório do projeto
+    - Você deve seguir alguns passos simples, veja:
+        1. Criar um repositório com o nome `nomedousuario.github.io`
+        2. Clonar o repositório no nosso computador
+        3. Adicionar o código do projeto na branch main
+        4. Enviar o código por meio de push
+        5. E pronto, você tem um site em https://nomedousuario.github.io
+
+95. Configurações iniciais do projeto
+    - Configurando o repositório, criando arquivos HTML, CSS e testando icones
+
+96. Criando o HTML
+    - Configurando o arquivo HTML conforme o exemplo/template que é apresentando no curso
+
+97. CSS do container da Bio
+    - 
