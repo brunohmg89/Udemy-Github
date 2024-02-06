@@ -614,4 +614,18 @@
     - Configurando o arquivo HTML conforme o exemplo/template que é apresentando no curso
 
 97. CSS do container da Bio
-    - 
+    - Configurando o arquivo de CSS para o template do Portfolio
+
+98. Finalizando CSS Desktop
+    - Concluindo o arquivo CSS para o template do Portfólio
+
+99. Deixando o projeto responsivo
+    - Concluído, site agora está responsivo
+
+100. Enviando o portfólio para o repositório
+    - Fazendo o push dos arquivos para o respositório
+
+## Encerramento e próximos passos
+
+101. Conclusão do curso
+    - Curso concluído, aprendemos diversos comandos de Git que eu não conhecia e que não sabia exatamente para que serviam, e também criamos uma página pelo GitHub Pages, como se fosse um currículo com domínio do GitHub <brunohmg89.github.io>

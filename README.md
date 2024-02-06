@@ -6,4 +6,4 @@ Curso sobre Git e GitHub.
 
 # Status do curso
 
-Em andamento
+Concluído.
